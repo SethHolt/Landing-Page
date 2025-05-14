@@ -1,10 +1,13 @@
 a {
+    color: slategray;
     text-decoration: none;
 }
 
 body {
+    background-color: #223;
     color: slategray;
     font-family: Roboto, Tahoma;
+    margin: 0px 50px;
 }
 
 ul {
@@ -13,9 +16,10 @@ ul {
     list-style-type: none;
 }
 
-.header {
+.header .container {
     display: flex;
     justify-content: space-between;
+    margin: 50px;
 }
 
 .logo {
@@ -25,6 +29,27 @@ ul {
     justify-content: center;
 }
 
+.modal {
+    display: flex;
+    gap: 16px;
+    width: 900px;
+}
+
+
+.modal .header {
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.modal img {
+    display: flex;
+    height:auto;
+    width: auto;
+}
+
 .roboto {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
@@ -32,4 +57,12 @@ ul {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+
+.sign-up {
+    background-color: royalblue;
+    border: 1px ;
+    border-radius: 10%;
+    color: #FFF;
+    height: 30px;
 }
