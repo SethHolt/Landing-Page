@@ -18,6 +18,7 @@ ul {
 
 .box {
     background-color: #3882f6;
+    border-radius: 5px;
     color: #fff;
     display: flex;
     flex-direction: row;
@@ -26,7 +27,7 @@ ul {
     padding: 50px;
 }
 
-.callbox {
+div.callbox {
     background-color: #fff;
     margin: 100px 200px;
 }
@@ -40,6 +41,7 @@ ul {
 }
 
 .header .container {
+    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     margin: 50px;
