@@ -7,8 +7,8 @@ body {
     background-color: #1f2937;
     color: slategray;
     font-family: Roboto, Tahoma;
-    margin: 0px 50px;
 }
+
 
 ul {
     display: flex;
@@ -20,6 +20,18 @@ ul {
     display: flex;
     justify-content: space-between;
     margin: 50px;
+}
+
+.info img {
+    display: flex;
+    height: auto;
+    margin: 0px 100px;
+    width: 100px;
+}
+
+.info .text {
+    margin: auto;
+    width: 150px;
 }
 
 .logo {
@@ -46,6 +58,24 @@ ul {
     font-weight: 700;
 }
 
+.random {
+    align-items: center;
+    background-color: #EEE;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.random .container {
+    display: flex;
+    flex-direction: row;
+}
+
 .roboto {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
@@ -63,4 +93,11 @@ ul {
     height: 30px;
     margin: 5px 0px;
     width: 100px;
+}
+
+.title {
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 32px;
 }
