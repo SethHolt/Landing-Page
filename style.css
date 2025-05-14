@@ -4,7 +4,7 @@ a {
 }
 
 body {
-    background-color: #223;
+    background-color: #1f2937;
     color: slategray;
     font-family: Roboto, Tahoma;
     margin: 0px 50px;
@@ -30,24 +30,20 @@ ul {
 }
 
 .modal {
+    align-items: start;
     display: flex;
+    flex-direction: row;
     gap: 16px;
+    justify-content: space-between;
+    margin: 100px 50px;
     width: 900px;
 }
-
 
 .modal .header {
     align-items: center;
     display: flex;
     font-size: 40px;
     font-weight: 700;
-    justify-content: center;
-}
-
-.modal img {
-    display: flex;
-    height:auto;
-    width: auto;
 }
 
 .roboto {
@@ -65,4 +61,6 @@ ul {
     border-radius: 10%;
     color: #FFF;
     height: 30px;
+    margin: 5px 0px;
+    width: 100px;
 }
