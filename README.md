@@ -1,5 +1,6 @@
 # landing-page
 Creating a web site from scratch focused on CSS.
-Credits go here.
+
+Wikimedia Commons
 
 The Odin Project
