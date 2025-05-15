@@ -70,9 +70,14 @@ ul {
 .logo {
     align-items: center;
     display: flex;
-    font-size: 18px;
-    font-weight: 700;
     justify-content: center;
+    margin: 0px 50px;
+}
+
+.logo img {
+    height: 50px;
+    margin: 0px 50px;
+    width: auto;
 }
 
 .modal {
@@ -81,9 +86,17 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 16px;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 100px 50px;
 
+}
+
+.modal .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 1000px;
 }
 
 .modal .header {
@@ -91,6 +104,11 @@ ul {
     display: flex;
     font-size: 48px;
     font-weight: 700;
+}
+
+.modal img {
+    height: auto;
+    width: 400px;
 }
 
 .quote {
